@@ -85,7 +85,7 @@ function scaleDown(element) {
 
 tl.add(slowlyShowDown(document.querySelector(".nav--container")), 0);
 tl.add(showUp(document.querySelector(".big--text p")), 1);
-tl.add(imageWipeDown(document.querySelector(".image--cove")), 1);
+tl.add(imageWipeDown(document.querySelector(".image--cover")), 1);
 tl.add(fadeIn(document.querySelector(".social--icons")), 1.3);
 tl.add(slowlyShowUp(document.querySelector(".small--text")), 1.5);
 tl.add(slowlyShowUp(document.querySelector(".mini--nav")), 1.6);
